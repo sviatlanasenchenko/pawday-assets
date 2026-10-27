@@ -1,0 +1,60 @@
+{
+  "prepared_date": "2026-10-27",
+  "repository": "sviatlanasenchenko/pawday-assets",
+  "branch": "preview/adult-puppy-webp-2026-10-27",
+  "base_commit": "8c2e3bb0f47d2bc12353a873045c3624c3450798",
+  "image_commit": "8c2e3bb0f47d2bc12353a873045c3624c3450798",
+  "main_at_preparation": "a19ebed1f3da8c9bec51cb0a73354a5bf691c699",
+  "main_update_required": false,
+  "publication_performed": false,
+  "tilda_editor_modified": false,
+  "candidate_file": "Pawday_T123_adult_puppy_2026-10-27.txt",
+  "backup_file": "Pawday_T123_before_adult_puppy_2026-10-27.html",
+  "verification": {
+    "status": "PASS",
+    "original": "43c7e3c4fd104790270508ddc3c6d3db65f603df18308d83dbc28a9e84608dbb",
+    "candidate": "ee8502ca1afe035284be4bb3db7086e793454827ea16dcaafdf684d49f27e799",
+    "exactMatcherAndCatOverrides": true,
+    "exactExistingInlineOverridesAndBridges": [
+      "iframe-error-watch.js",
+      "cat-review.js",
+      "matcher-v6.js",
+      "cat-guidance-ui.js",
+      "result-sharing.js",
+      "ownership-guidance-ui.js",
+      "tilda-locales.js",
+      "iframe-sizing.js"
+    ],
+    "preservedScriptOrder": true,
+    "languageRoutes": 3,
+    "sharedIds": [
+      "cavalier-pdsa",
+      "mas-akc"
+    ],
+    "matchingScenarios": 8,
+    "matchingOutputsEqual": true,
+    "generatedImages": [
+      {
+        "language": "en",
+        "exactURLs": 142,
+        "localizedAlts": 142,
+        "commit": "8c2e3bb0f47d2bc12353a873045c3624c3450798"
+      },
+      {
+        "language": "ru",
+        "exactURLs": 142,
+        "localizedAlts": 142,
+        "commit": "8c2e3bb0f47d2bc12353a873045c3624c3450798"
+      },
+      {
+        "language": "zh",
+        "exactURLs": 142,
+        "localizedAlts": 142,
+        "commit": "8c2e3bb0f47d2bc12353a873045c3624c3450798"
+      }
+    ],
+    "originalBase": "https://sviatlanasenchenko.github.io/pawday-assets/",
+    "candidateBase": "https://sviatlanasenchenko.github.io/pawday-assets/",
+    "limitation": "VM execution with inert DOM/API stubs. This does not verify browser layout, resource networking, CSS, image decoding, or user interaction in a real browser."
+  }
+}
