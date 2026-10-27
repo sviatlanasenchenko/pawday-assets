@@ -1,0 +1,291 @@
+{
+  "status": "PASS: local verification; Tilda preview pending",
+  "branch": "preview/adult-puppy-webp-2026-10-27",
+  "loader_commit": "7d795f5d2ad0a2e9379ee059dcad230118427e8e",
+  "loader_sha256": "6223ea4655dff43d084d17e17b55ae8c4e8077cba61f173194252749dbc0248c",
+  "loader_sri": "sha384-N6rk9oeud992Uldu6kSHys1ztatNDTfmz1qcdM9eH/UVLcPTUxG8PjaN4Fy5Pjft",
+  "loader_url": "https://cdn.jsdelivr.net/gh/sviatlanasenchenko/pawday-assets@7d795f5d2ad0a2e9379ee059dcad230118427e8e/tilda/pawday-t123-loader.js",
+  "snippets": [
+    {
+      "language": "en",
+      "file": "tilda/Pawday_T123_EN_2026-10-27.txt",
+      "lines": 11,
+      "bytes": 768,
+      "sha256": "f02e4dabfbf5a72bcab03473a8d9afab53caf22eae6be3e4109cc3141e586d2d",
+      "git_blob_sha": "077146563afc4aeb209f794192acacff434fa59e"
+    },
+    {
+      "language": "ru",
+      "file": "tilda/Pawday_T123_RU_2026-10-27.txt",
+      "lines": 11,
+      "bytes": 829,
+      "sha256": "5fcfe62c8b053f228eb0cb1cb5822ad39a83101614e9c04e7a6b07dbff0f5471",
+      "git_blob_sha": "8d4461a2645ba3d4d5f8a9b5fb45da82f9fd83ee"
+    },
+    {
+      "language": "zh",
+      "file": "tilda/Pawday_T123_ZH_2026-10-27.txt",
+      "lines": 11,
+      "bytes": 783,
+      "sha256": "0a619e802abb906f12861bb0eb2655fc61abd306f496d6a723fdd34ecad6946c",
+      "git_blob_sha": "a76befa5d2918f33b1d347bb65448c41bfd1a176"
+    }
+  ],
+  "verification": {
+    "status": "PASS",
+    "loaderPath": "pawday-assets/tilda/pawday-t123-loader.js",
+    "loaderSHA256": "6223ea4655dff43d084d17e17b55ae8c4e8077cba61f173194252749dbc0248c",
+    "referenceFullSHA256": "ee8502ca1afe035284be4bb3db7086e793454827ea16dcaafdf684d49f27e799",
+    "cases": [
+      {
+        "fixture": "explicit-en",
+        "pathname": "/test-dog-quiz",
+        "explicitLanguage": "en",
+        "hashCase": "none",
+        "initialLanguage": "en",
+        "initialIframeLanguage": "en",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "explicit-en",
+        "pathname": "/test-dog-quiz",
+        "explicitLanguage": "en",
+        "hashCase": "valid",
+        "initialLanguage": "ru",
+        "initialIframeLanguage": "en",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "explicit-en",
+        "pathname": "/test-dog-quiz",
+        "explicitLanguage": "en",
+        "hashCase": "invalid",
+        "initialLanguage": "en",
+        "initialIframeLanguage": "en",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "explicit-ru",
+        "pathname": "/test-dog-quiz",
+        "explicitLanguage": "ru",
+        "hashCase": "none",
+        "initialLanguage": "ru",
+        "initialIframeLanguage": "ru",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "explicit-ru",
+        "pathname": "/test-dog-quiz",
+        "explicitLanguage": "ru",
+        "hashCase": "valid",
+        "initialLanguage": "zh",
+        "initialIframeLanguage": "ru",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "explicit-ru",
+        "pathname": "/test-dog-quiz",
+        "explicitLanguage": "ru",
+        "hashCase": "invalid",
+        "initialLanguage": "ru",
+        "initialIframeLanguage": "ru",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "explicit-zh",
+        "pathname": "/test-dog-quiz",
+        "explicitLanguage": "zh",
+        "hashCase": "none",
+        "initialLanguage": "zh",
+        "initialIframeLanguage": "zh",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "explicit-zh",
+        "pathname": "/test-dog-quiz",
+        "explicitLanguage": "zh",
+        "hashCase": "valid",
+        "initialLanguage": "en",
+        "initialIframeLanguage": "zh",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "explicit-zh",
+        "pathname": "/test-dog-quiz",
+        "explicitLanguage": "zh",
+        "hashCase": "invalid",
+        "initialLanguage": "zh",
+        "initialIframeLanguage": "zh",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "explicit-opposite-route-en",
+        "pathname": "/ru",
+        "explicitLanguage": "en",
+        "hashCase": "none",
+        "initialLanguage": "en",
+        "initialIframeLanguage": "en",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "explicit-opposite-route-en",
+        "pathname": "/ru",
+        "explicitLanguage": "en",
+        "hashCase": "valid",
+        "initialLanguage": "ru",
+        "initialIframeLanguage": "en",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "explicit-opposite-route-ru",
+        "pathname": "/zh",
+        "explicitLanguage": "ru",
+        "hashCase": "none",
+        "initialLanguage": "ru",
+        "initialIframeLanguage": "ru",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "explicit-opposite-route-ru",
+        "pathname": "/zh",
+        "explicitLanguage": "ru",
+        "hashCase": "valid",
+        "initialLanguage": "zh",
+        "initialIframeLanguage": "ru",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "explicit-opposite-route-zh",
+        "pathname": "/",
+        "explicitLanguage": "zh",
+        "hashCase": "none",
+        "initialLanguage": "zh",
+        "initialIframeLanguage": "zh",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "explicit-opposite-route-zh",
+        "pathname": "/",
+        "explicitLanguage": "zh",
+        "hashCase": "valid",
+        "initialLanguage": "en",
+        "initialIframeLanguage": "zh",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "auto-en",
+        "pathname": "/",
+        "explicitLanguage": null,
+        "hashCase": "none",
+        "initialLanguage": "en",
+        "initialIframeLanguage": "en",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "auto-en",
+        "pathname": "/",
+        "explicitLanguage": null,
+        "hashCase": "valid",
+        "initialLanguage": "ru",
+        "initialIframeLanguage": "en",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "auto-ru",
+        "pathname": "/ru",
+        "explicitLanguage": null,
+        "hashCase": "none",
+        "initialLanguage": "ru",
+        "initialIframeLanguage": "ru",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "auto-ru",
+        "pathname": "/ru",
+        "explicitLanguage": null,
+        "hashCase": "valid",
+        "initialLanguage": "zh",
+        "initialIframeLanguage": "ru",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "auto-zh",
+        "pathname": "/zh",
+        "explicitLanguage": null,
+        "hashCase": "none",
+        "initialLanguage": "zh",
+        "initialIframeLanguage": "zh",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      },
+      {
+        "fixture": "auto-zh",
+        "pathname": "/zh",
+        "explicitLanguage": null,
+        "hashCase": "valid",
+        "initialLanguage": "en",
+        "initialIframeLanguage": "zh",
+        "duplicateLoadIgnored": true,
+        "protectedScriptsAndCSSByteExact": true,
+        "stateAndShareChecks": true
+      }
+    ],
+    "allowedLocaleChanges": [
+      {
+        "line": 86,
+        "before": " if(!host.location.hash.startsWith('#pawday-result=')){lang=pathLang();render();}",
+        "after": " if(!host.location.hash.startsWith('#pawday-result=')){lang=window.frameElement.dataset.pawdayInitialLanguage||pathLang();render();}"
+      }
+    ],
+    "matchingAndOtherInlineOverridesByteExact": true,
+    "limitation": "Local VM and inert DOM/API stubs only. No browser or network checks; matching was not rerun because all matching scripts and data references were preserved exactly."
+  },
+  "boundaries": {
+    "tilda_modified": false,
+    "published": false,
+    "main_modified": false,
+    "browser_preview": "Not performed: browser connection unavailable in the preceding work.",
+    "cdn_loading": "Not verified. No retry after the preceding CDN lookup tool error; this new commit URL has not been requested.",
+    "existing_images_and_matching": "Preserved. Only presentation locale initialization was adjusted.",
+    "shared_link_language": "A valid shared-result link keeps its saved language; the block language is the initial default."
+  }
+}
