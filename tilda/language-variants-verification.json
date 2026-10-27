@@ -1,5 +1,5 @@
 {
-  "status": "PASS: local verification; Tilda preview pending",
+  "status": "PASS: local VM checks, persisted EN/RU/ZH Tilda draft code and isolated runtime browser QA; published Tilda execution NOT_TESTED; not published",
   "branch": "preview/adult-puppy-webp-2026-10-27",
   "loader_commit": "7d795f5d2ad0a2e9379ee059dcad230118427e8e",
   "loader_sha256": "6223ea4655dff43d084d17e17b55ae8c4e8077cba61f173194252749dbc0248c",
@@ -280,12 +280,82 @@
     "limitation": "Local VM and inert DOM/API stubs only. No browser or network checks; matching was not rerun because all matching scripts and data references were preserved exactly."
   },
   "boundaries": {
-    "tilda_modified": false,
+    "tilda_modified": true,
     "published": false,
     "main_modified": false,
-    "browser_preview": "Not performed: browser connection unavailable in the preceding work.",
-    "cdn_loading": "Not verified. No retry after the preceding CDN lookup tool error; this new commit URL has not been requested.",
+    "browser_preview": "EN/RU/ZH saved Tilda record code persisted exactly after reopening/reloading. Tilda editor preview shows a T123 placeholder. Separate managed runtime checks passed; execution inside a published Tilda page was NOT_TESTED.",
+    "cdn_loading": "PASS in the isolated managed preview: the exact pinned jsDelivr loader with SRI executed. See runtime-verification.json for observations and limits.",
     "existing_images_and_matching": "Preserved. Only presentation locale initialization was adjusted.",
     "shared_link_language": "A valid shared-result link keeps its saved language; the block language is the initial default."
+  },
+  "draft_insertion": {
+    "scope": "Tilda draft code edits only; no publication",
+    "evidence_source": "Root observed the editor saves and exact clipboard readbacks. Backup hashes were independently checked from the saved local files.",
+    "all_three_saved_and_readback_equal": true,
+    "original_block_sha256": "43c7e3c4fd104790270508ddc3c6d3db65f603df18308d83dbc28a9e84608dbb",
+    "original_block_bytes": 112245,
+    "repository_backup_file": "tilda/Pawday_T123_before_adult_puppy_2026-10-27.html",
+    "pages": [
+      {
+        "language": "en",
+        "page_id": "271109903",
+        "t123_record_id": "4299173503",
+        "saved": true,
+        "byte_exact_editor_readback": true,
+        "snippet_file": "tilda/Pawday_T123_EN_2026-10-27.txt",
+        "saved_snippet_sha256": "f02e4dabfbf5a72bcab03473a8d9afab53caf22eae6be3e4109cc3141e586d2d",
+        "original_block_sha256": "43c7e3c4fd104790270508ddc3c6d3db65f603df18308d83dbc28a9e84608dbb",
+        "local_backup_path": "qa-code/tilda-live-en-before.html",
+        "persisted_readback_equal": true,
+        "persisted_readback_method": "Rendered saved #rec code after reopening/reloading page"
+      },
+      {
+        "language": "ru",
+        "page_id": "271283103",
+        "t123_record_id": "4299716103",
+        "saved": true,
+        "byte_exact_editor_readback": true,
+        "snippet_file": "tilda/Pawday_T123_RU_2026-10-27.txt",
+        "saved_snippet_sha256": "5fcfe62c8b053f228eb0cb1cb5822ad39a83101614e9c04e7a6b07dbff0f5471",
+        "original_block_sha256": "43c7e3c4fd104790270508ddc3c6d3db65f603df18308d83dbc28a9e84608dbb",
+        "local_backup_path": "qa-code/tilda-live-ru-before.html",
+        "persisted_readback_equal": true,
+        "persisted_readback_method": "Rendered saved #rec code after reopening/reloading page"
+      },
+      {
+        "language": "zh",
+        "page_id": "271286403",
+        "t123_record_id": "4299728903",
+        "saved": true,
+        "byte_exact_editor_readback": true,
+        "snippet_file": "tilda/Pawday_T123_ZH_2026-10-27.txt",
+        "saved_snippet_sha256": "0a619e802abb906f12861bb0eb2655fc61abd306f496d6a723fdd34ecad6946c",
+        "original_block_sha256": "43c7e3c4fd104790270508ddc3c6d3db65f603df18308d83dbc28a9e84608dbb",
+        "local_backup_path": "qa-code/tilda-live-zh-before.html",
+        "persisted_readback_equal": true,
+        "persisted_readback_method": "Rendered saved #rec code after reopening/reloading page"
+      }
+    ],
+    "local_zh_save_screenshot": "qa-code/tilda-zh-saved-2026-10-27.jpg",
+    "last_repository_preflight": {
+      "preview_head": "be5199a14fbbe1a0d4eed2c53d2b64c29f7e8887",
+      "main_head": "a19ebed1f3da8c9bec51cb0a73354a5bf691c699",
+      "evidence": "Read-only GitHub connector refs check immediately before the final documentation commit."
+    },
+    "persisted_readback_verified": true,
+    "persisted_readback_method": "EN and RU were reopened after navigation; ZH was reloaded. Rendered saved code in each #rec record matched the corresponding short snippet byte for byte, confirming persistence beyond the initial editor clipboard readback.",
+    "local_save_screenshots": [
+      "qa-code/tilda-en-saved-2026-10-27.jpg",
+      "qa-code/tilda-ru-saved-2026-10-27.jpg",
+      "qa-code/tilda-zh-saved-2026-10-27.jpg"
+    ]
+  },
+  "isolated_runtime_qa": {
+    "status": "PASS: bounded isolated runtime QA",
+    "report_file": "tilda/runtime-verification.json",
+    "preview_url": "http://terminal.local:4173/",
+    "not_tilda_runtime_validation": true,
+    "published_tilda_execution": "NOT_TESTED",
+    "publication_performed": false
   }
 }

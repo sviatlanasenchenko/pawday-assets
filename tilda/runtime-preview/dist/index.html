@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>Pawday — EN runtime preview</title>
+  <style>
+    html, body { margin: 0; background: #fff9ef; color: #123b32; font-family: Arial, sans-serif; }
+    .uc-pawday-title { padding: 40px 20px 0; text-align: center; }
+    .uc-pawday-title h1 { max-width: 1100px; margin: 0 auto; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; }
+  </style>
+</head>
+<body>
+  <header class="uc-pawday-title"><h1>Which dog is right for you?</h1></header>
+<!-- Exact current T123 snippet begins. -->
+<div id="pawday-t123-mount" data-lang="en" lang="en">
+  <p id="pawday-loader-status" role="status">Loading Pawday…</p>
+  <p id="pawday-loader-error" hidden>Unable to load Pawday. <a href="https://sviatlanasenchenko.github.io/pawday-assets/" target="_blank" rel="noopener">Open Pawday ↗</a></p>
+  <noscript>JavaScript is required to use Pawday.</noscript>
+</div>
+<script
+  src="https://cdn.jsdelivr.net/gh/sviatlanasenchenko/pawday-assets@7d795f5d2ad0a2e9379ee059dcad230118427e8e/tilda/pawday-t123-loader.js"
+  integrity="sha384-N6rk9oeud992Uldu6kSHys1ztatNDTfmz1qcdM9eH/UVLcPTUxG8PjaN4Fy5Pjft"
+  crossorigin="anonymous"
+  onerror="document.getElementById('pawday-loader-status').hidden=true;document.getElementById('pawday-loader-error').hidden=false;"
+></script>
+<!-- Exact current T123 snippet ends. -->
+</body>
+</html>

@@ -1,0 +1,323 @@
+{
+  "date": "2026-10-27",
+  "status": "PASS: bounded isolated runtime QA",
+  "published_tilda_execution": "NOT_TESTED",
+  "publication_performed": false,
+  "scope": "Browser observations reported by root in a Sites managed preview of the exact saved short snippets. This is separate from Tilda; the Tilda editor preview shows a placeholder and no page was published.",
+  "evidence_provenance": "Root performed browser observations and persisted editor readback. regression_checks assembled this report, checked local source/backup hashes and prior reports, and performed GitHub connector verification.",
+  "repository": "sviatlanasenchenko/pawday-assets",
+  "branch": "preview/adult-puppy-webp-2026-10-27",
+  "loader_commit": "7d795f5d2ad0a2e9379ee059dcad230118427e8e",
+  "loader_sha256": "6223ea4655dff43d084d17e17b55ae8c4e8077cba61f173194252749dbc0248c",
+  "loader_sri": "sha384-N6rk9oeud992Uldu6kSHys1ztatNDTfmz1qcdM9eH/UVLcPTUxG8PjaN4Fy5Pjft",
+  "preview_origin": "http://terminal.local:4173/",
+  "preview_paths": {
+    "en": "/",
+    "ru": "/ru/",
+    "zh": "/zh/",
+    "mobile_comparison": "/mobile/"
+  },
+  "draft_persistence": {
+    "status": "PASS",
+    "method": "EN and RU were reopened after navigation; ZH was reloaded. Rendered saved code in each #rec record matched the corresponding short snippet byte for byte, confirming persistence beyond the initial editor clipboard readback.",
+    "original_block_bytes": 112245,
+    "original_block_sha256": "43c7e3c4fd104790270508ddc3c6d3db65f603df18308d83dbc28a9e84608dbb",
+    "pages": [
+      {
+        "language": "en",
+        "page_id": "271109903",
+        "t123_record_id": "4299173503",
+        "saved": true,
+        "byte_exact_editor_readback": true,
+        "snippet_file": "tilda/Pawday_T123_EN_2026-10-27.txt",
+        "saved_snippet_sha256": "f02e4dabfbf5a72bcab03473a8d9afab53caf22eae6be3e4109cc3141e586d2d",
+        "original_block_sha256": "43c7e3c4fd104790270508ddc3c6d3db65f603df18308d83dbc28a9e84608dbb",
+        "local_backup_path": "qa-code/tilda-live-en-before.html",
+        "persisted_readback_equal": true,
+        "persisted_readback_method": "Rendered saved #rec code after reopening/reloading page"
+      },
+      {
+        "language": "ru",
+        "page_id": "271283103",
+        "t123_record_id": "4299716103",
+        "saved": true,
+        "byte_exact_editor_readback": true,
+        "snippet_file": "tilda/Pawday_T123_RU_2026-10-27.txt",
+        "saved_snippet_sha256": "5fcfe62c8b053f228eb0cb1cb5822ad39a83101614e9c04e7a6b07dbff0f5471",
+        "original_block_sha256": "43c7e3c4fd104790270508ddc3c6d3db65f603df18308d83dbc28a9e84608dbb",
+        "local_backup_path": "qa-code/tilda-live-ru-before.html",
+        "persisted_readback_equal": true,
+        "persisted_readback_method": "Rendered saved #rec code after reopening/reloading page"
+      },
+      {
+        "language": "zh",
+        "page_id": "271286403",
+        "t123_record_id": "4299728903",
+        "saved": true,
+        "byte_exact_editor_readback": true,
+        "snippet_file": "tilda/Pawday_T123_ZH_2026-10-27.txt",
+        "saved_snippet_sha256": "0a619e802abb906f12861bb0eb2655fc61abd306f496d6a723fdd34ecad6946c",
+        "original_block_sha256": "43c7e3c4fd104790270508ddc3c6d3db65f603df18308d83dbc28a9e84608dbb",
+        "local_backup_path": "qa-code/tilda-live-zh-before.html",
+        "persisted_readback_equal": true,
+        "persisted_readback_method": "Rendered saved #rec code after reopening/reloading page"
+      }
+    ]
+  },
+  "runtime_checks": {
+    "cdn_loader_and_sri": {
+      "status": "PASS",
+      "observation": "The exact pinned jsDelivr loader with SRI executed and created the application iframe."
+    },
+    "independent_language_start": {
+      "status": "PASS",
+      "languages": [
+        "en",
+        "ru",
+        "zh"
+      ],
+      "home_image_id": "poodle-miniature",
+      "image_complete": true,
+      "image_natural_width": 1024
+    },
+    "mobile_layout": {
+      "status": "PASS",
+      "fixture_iframe_width": 390,
+      "fixture_iframe_height": 2200,
+      "measurements": [
+        {
+          "language": "en",
+          "client_width": 390,
+          "scroll_width": 390,
+          "reported_page_height": 1773,
+          "illustration_visible_without_clipping": true
+        },
+        {
+          "language": "ru",
+          "client_width": 390,
+          "scroll_width": 390,
+          "reported_page_height": 1824,
+          "illustration_visible_without_clipping": true
+        },
+        {
+          "language": "zh",
+          "client_width": 390,
+          "scroll_width": 390,
+          "reported_page_height": 1707,
+          "illustration_visible_without_clipping": true
+        }
+      ],
+      "horizontal_overflow": false,
+      "note": "The comparison fixture height was raised to 2200 to avoid fixture clipping. The earlier RU scrollbar width of 375 was superseded by the final reload measurements above. This is browser viewport testing, not physical-device testing."
+    },
+    "complete_quiz": {
+      "status": "PASS",
+      "completed_question_count": 13,
+      "full_flow_runs": 1,
+      "choices_as_reported": {
+        "household": "adults",
+        "home": "apartment",
+        "size": "small",
+        "experience": "first dog",
+        "alone": "2–4 hours",
+        "training": "30–60 minutes",
+        "walks": "1–2 hours",
+        "control": "leash",
+        "grooming": "yes",
+        "budget": "yes",
+        "barking": "yes",
+        "breed_filter": "purebreeds",
+        "activity": "park",
+        "allergy": "none"
+      },
+      "results": [
+        {
+          "id": "cavalier-pdsa",
+          "score": 95
+        },
+        {
+          "id": "havanese",
+          "score": 91
+        },
+        {
+          "id": "coton-de-tulear",
+          "score": 91
+        }
+      ]
+    },
+    "in_progress_language_switch": {
+      "status": "PASS",
+      "at_question": 12,
+      "sequence": [
+        "ru",
+        "en",
+        "zh",
+        "ru"
+      ],
+      "question_retained": 12,
+      "selected_answer_retained": "park",
+      "remaining_profiles_retained": 34,
+      "total_profiles": 142
+    },
+    "result_languages": {
+      "status": "PASS",
+      "languages": [
+        "en",
+        "ru",
+        "zh"
+      ],
+      "same_ids_and_scores": [
+        {
+          "id": "cavalier-pdsa",
+          "score": 95
+        },
+        {
+          "id": "havanese",
+          "score": 91
+        },
+        {
+          "id": "coton-de-tulear",
+          "score": 91
+        }
+      ],
+      "all_three_result_images_complete": true,
+      "all_three_result_images_natural_width": 1024
+    },
+    "details_and_iframe_height": {
+      "status": "PASS",
+      "observed_heights_px": [
+        {
+          "state": "primary details closed",
+          "height": 3112
+        },
+        {
+          "state": "primary details expanded",
+          "height": 4063
+        },
+        {
+          "state": "second alternative expanded",
+          "height": 5623
+        },
+        {
+          "state": "primary collapsed",
+          "height": 4672
+        },
+        {
+          "state": "English language rerender resets details closed",
+          "height": 3005
+        }
+      ],
+      "note": "These are sequential observed states, not a claim that every expansion state was independently repeated in every language."
+    },
+    "shared_result_roundtrip": {
+      "status": "PASS",
+      "generated_hash_language": "zh",
+      "new_tab_restored_language": "zh",
+      "results": [
+        {
+          "id": "cavalier-pdsa",
+          "score": 95
+        },
+        {
+          "id": "havanese",
+          "score": 91
+        },
+        {
+          "id": "coton-de-tulear",
+          "score": 91
+        }
+      ],
+      "subsequent_language_sequence": [
+        "ru",
+        "en"
+      ],
+      "ids_and_scores_preserved": true,
+      "names_and_ai_labels_localized": true
+    },
+    "illustration_disclosure": {
+      "status": "PASS",
+      "inspected_languages": [
+        "zh",
+        "ru",
+        "en"
+      ],
+      "ai_explanation_visible": true,
+      "archived_author_and_license_disclosure_visible": true
+    },
+    "console": {
+      "status": "PASS within application scope",
+      "application_origin_errors_observed": 0,
+      "other_observation": "A chrome-extension metadata error was observed; it was not an application-origin error."
+    }
+  },
+  "prior_image_and_regression_evidence": {
+    "visual_overview": {
+      "images_reviewed": 142,
+      "adult_and_puppy_visible": 142,
+      "obvious_crop_or_label_mismatch": 0,
+      "local_report": "qa-archive/visual-audit.json",
+      "scope": "Prior contact-sheet visual overview, not breed-standard certification."
+    },
+    "archive_integrity": {
+      "exact_stable_ids": 142,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "unique_images": 142,
+      "byte_identical_integrated_images": 142,
+      "local_report": "qa-code/verify-report.json"
+    },
+    "prior_gallery_browser_check": {
+      "images_loaded": 142,
+      "image_errors": 0,
+      "repository_report": "preview-review.json",
+      "scope": "Earlier standalone gallery check, distinct from this short-loader runtime sample."
+    },
+    "legacy_photos": {
+      "unchanged_files": 162,
+      "local_remote_tree_report": "qa-code/remote-tree-check.json",
+      "scope": "Earlier remote-tree comparison confirmed preservation; the final documentation commit must retain all existing 304 photo blobs."
+    },
+    "matching": {
+      "scenarios": 8,
+      "outputs_unchanged": true,
+      "local_report": "qa-code/tilda-comparison.json",
+      "repository_report": "tilda/adult-puppy-verification.json",
+      "fields": "IDs, rankings, scores, exclusions and counts"
+    },
+    "renderer_languages": {
+      "exact_id_url_alt_combinations": 426,
+      "languages": [
+        "en",
+        "ru",
+        "zh"
+      ],
+      "local_report": "qa-code/tilda-comparison.json"
+    },
+    "explicit_language_vm_cases": {
+      "passed": 21,
+      "local_report": "qa-code/tilda-language-report.json",
+      "scope": "After the two documented locale initialization changes, matching scripts/data, other overrides, CSS and generated iframe content retain the previously verified behavior."
+    }
+  },
+  "evidence_files_local_only": [
+    "qa-code/tilda-en-saved-2026-10-27.jpg",
+    "qa-code/tilda-ru-saved-2026-10-27.jpg",
+    "qa-code/tilda-zh-saved-2026-10-27.jpg",
+    "qa-code/tilda-runtime-en-2026-10-27.jpg",
+    "qa-code/tilda-runtime-mobile-en-ru-zh-2026-10-27.jpg",
+    "qa-code/tilda-runtime-shared-ru-2026-10-27.jpg",
+    "qa-code/tilda-runtime-ru-expanded-2026-10-27.jpg"
+  ],
+  "limitations": [
+    "Application execution inside a published Tilda page was not tested: the editor preview shows a placeholder, and publication is prohibited.",
+    "Mobile observations used browser iframe viewports, not physical phones.",
+    "The current short-loader browser check sampled the home illustration and three result illustrations; the full 142-image visual and gallery checks are cited separately as prior evidence."
+  ],
+  "repository_preflight": {
+    "preview_head": "be5199a14fbbe1a0d4eed2c53d2b64c29f7e8887",
+    "main_head": "a19ebed1f3da8c9bec51cb0a73354a5bf691c699",
+    "evidence": "Read-only GitHub connector refs check immediately before the final documentation commit."
+  }
+}
