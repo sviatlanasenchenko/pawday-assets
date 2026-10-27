@@ -1,0 +1,274 @@
+{
+  "date": "2026-10-27",
+  "repository": "sviatlanasenchenko/pawday-assets",
+  "branch": "preview/adult-puppy-webp-2026-10-27",
+  "source_commit": "ce70a020b941f70e6ebd6ea040d636a8b0f7b62a",
+  "main_commit_at_start": "a19ebed1f3da8c9bec51cb0a73354a5bf691c699",
+  "archive": {
+    "filename": "Pawday_142_WebP(1).zip",
+    "sha256": "26812591769cf51487a2350ce10f6c73c2bd387c849fccfccde0b032ee775fc1",
+    "images": 142,
+    "bytes": 14860616,
+    "dimensions": [
+      1024,
+      1024
+    ]
+  },
+  "image_checks": {
+    "unique_ids": 142,
+    "exact_database_id_matches": 142,
+    "byte_identical_to_archive": 142,
+    "visual_reviewed": 142,
+    "browser_loaded": 142,
+    "browser_image_errors": 0,
+    "languages": {
+      "en": 142,
+      "ru": 142,
+      "zh": 142
+    },
+    "renderer_id_language_combinations_checked": 426
+  },
+  "preservation": {
+    "legacy_image_folder": "photos/",
+    "legacy_image_files_in_base_tree": 162,
+    "legacy_photo_metadata": "breed-photos.js (unchanged); retained as window.pawdayLegacyPhotos at runtime",
+    "matching_files_unchanged": [
+      "matching.js",
+      "matcher-v2.js",
+      "matcher-v6.js",
+      "pwa/matcher-v6.js",
+      "database-v6.js",
+      "database-v6-adapter.js"
+    ],
+    "matching_scenarios_exactly_equal_to_baseline": 8
+  },
+  "matching_scenarios": [
+    {
+      "id": "small-apartment-first-dog",
+      "qualifiedCount": 13,
+      "compromiseCount": 25,
+      "topFive": [
+        {
+          "id": "cavalier-pdsa",
+          "score": 0.9582758620689655
+        },
+        {
+          "id": "cavapoo",
+          "score": 0.9027272727272727
+        },
+        {
+          "id": "maltipoo",
+          "score": 0.9027272727272727
+        },
+        {
+          "id": "havanese",
+          "score": 0.9005172413793103
+        },
+        {
+          "id": "coton-de-tulear",
+          "score": 0.8703448275862068
+        }
+      ]
+    },
+    {
+      "id": "young-children-family-yard",
+      "qualifiedCount": 26,
+      "compromiseCount": 26,
+      "topFive": [
+        {
+          "id": "labrador-retriever",
+          "score": 0.9529487179487179
+        },
+        {
+          "id": "golden-retriever",
+          "score": 0.9452564102564102
+        },
+        {
+          "id": "tibetan-terrier",
+          "score": 0.8965384615384616
+        },
+        {
+          "id": "american-cocker-spaniel",
+          "score": 0.8785897435897436
+        },
+        {
+          "id": "lagotto-romagnolo",
+          "score": 0.8657692307692307
+        }
+      ]
+    },
+    {
+      "id": "cats-older-children-house",
+      "qualifiedCount": 59,
+      "compromiseCount": 28,
+      "topFive": [
+        {
+          "id": "cavalier-pdsa",
+          "score": 0.9697142857142856
+        },
+        {
+          "id": "tibetan-terrier",
+          "score": 0.9532857142857142
+        },
+        {
+          "id": "lowchen-little-lion",
+          "score": 0.9532857142857142
+        },
+        {
+          "id": "american-cocker-spaniel",
+          "score": 0.9275714285714285
+        },
+        {
+          "id": "havanese",
+          "score": 0.9218571428571428
+        }
+      ]
+    },
+    {
+      "id": "experienced-sport-large",
+      "qualifiedCount": 35,
+      "compromiseCount": 1,
+      "topFive": [
+        {
+          "id": "german-wirehaired-pointer",
+          "score": 0.9710227272727273
+        },
+        {
+          "id": "irish-setter",
+          "score": 0.9710227272727273
+        },
+        {
+          "id": "alaskan-malamute",
+          "score": 0.9577651515151515
+        },
+        {
+          "id": "belgian-malinois",
+          "score": 0.9255681818181818
+        },
+        {
+          "id": "german-shorthaired-pointer",
+          "score": 0.918939393939394
+        }
+      ]
+    },
+    {
+      "id": "giant-outdoor-rural",
+      "qualifiedCount": 6,
+      "compromiseCount": 0,
+      "topFive": [
+        {
+          "id": "black-russian-terrier",
+          "score": 0.7924242424242424
+        },
+        {
+          "id": "anatolian-shepherd-dog",
+          "score": 0.7659090909090909
+        },
+        {
+          "id": "central-asian-shepherd-dog",
+          "score": 0.7659090909090909
+        },
+        {
+          "id": "caucasian-shepherd-dog",
+          "score": 0.7204545454545455
+        },
+        {
+          "id": "great-pyrenees",
+          "score": 0.7204545454545455
+        }
+      ]
+    },
+    {
+      "id": "limited-time-economy-apartment",
+      "qualifiedCount": 0,
+      "compromiseCount": 71,
+      "topFive": []
+    },
+    {
+      "id": "mixed-types-only",
+      "qualifiedCount": 12,
+      "compromiseCount": 1,
+      "topFive": [
+        {
+          "id": "chinese-village-dog",
+          "score": 0.91
+        },
+        {
+          "id": "bernedoodle",
+          "score": 0.8975
+        },
+        {
+          "id": "cockapoo",
+          "score": 0.8641666666666666
+        },
+        {
+          "id": "pomsky",
+          "score": 0.8641666666666666
+        },
+        {
+          "id": "goldendoodle",
+          "score": 0.8641666666666666
+        }
+      ]
+    },
+    {
+      "id": "allergy-low-shedding-concern",
+      "qualifiedCount": 14,
+      "compromiseCount": 11,
+      "topFive": [
+        {
+          "id": "bedlington-terrier",
+          "score": 0.9616666666666667
+        },
+        {
+          "id": "biewer-terrier",
+          "score": 0.9505555555555555
+        },
+        {
+          "id": "poodle-miniature",
+          "score": 0.932037037037037
+        },
+        {
+          "id": "poodle-toy",
+          "score": 0.932037037037037
+        },
+        {
+          "id": "havanese",
+          "score": 0.9209259259259258
+        }
+      ]
+    }
+  ],
+  "browser_checks": {
+    "engine": "Chromium",
+    "desktop": [
+      "EN complete 13-question quiz",
+      "EN/RU/ZH expanded primary and alternative cards",
+      "localized generated-image captions and alt text",
+      "exact-ID shared results",
+      "gallery search, language preservation and image dialog"
+    ],
+    "responsive": [
+      "EN/RU/ZH shared results at 360/390px",
+      "complete 13-question quiz at 360px",
+      "EN/RU/ZH expanded primary and alternative cards at 360px"
+    ],
+    "horizontal_overflow": false,
+    "gallery_all_images_loaded": 142,
+    "actual_quiz_result": {
+      "qualified_profiles": 38,
+      "compromise_profiles": 25,
+      "primary_id": "cavalier-pdsa",
+      "alternative_ids": [
+        "havanese",
+        "coton-de-tulear"
+      ]
+    },
+    "physical_device_testing": false
+  },
+  "preview": {
+    "gallery_path": "preview-images.html?lang=ru",
+    "publication_status": "Preview branch only. No main update, no Tilda publication, no public deployment performed.",
+    "generated_notice": "Localized AI illustration labels; original photo credits kept in the archive section."
+  }
+}

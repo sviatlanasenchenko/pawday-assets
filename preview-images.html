@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="theme-color" content="#f8f7ef">
+  <title>Pawday — Image preview</title>
+  <link rel="icon" type="image/png" href="assets/icons/icon-192.png">
+  <link rel="stylesheet" href="preview-images.css">
+  <script src="database-v6.js?v=55" defer></script>
+  <script src="preview-images.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#image-grid" data-copy="skip">Skip to images</a>
+  <header class="preview-header">
+    <a class="preview-brand" href="#top" aria-label="Pawday"><span aria-hidden="true">🐾</span> pawday</a>
+    <label class="language-control"><span data-copy="language">Language</span><select id="preview-language" aria-label="Language"><option value="en">English</option><option value="ru">Русский</option><option value="zh">简体中文</option></select></label>
+  </header>
+  <main id="top">
+    <section class="preview-intro" aria-labelledby="preview-title">
+      <span class="preview-badge" data-copy="badge">Image preview</span>
+      <div class="intro-heading"><div><h1 id="preview-title" data-copy="title">Meet them, big and small.</h1><p data-copy="intro">Explore all 142 adult-and-puppy illustrations. Select a card to see the complete image.</p></div><a class="quiz-link" href="en/" data-copy="quiz">Open the quiz <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section class="preview-collection" aria-label="Image collection" id="preview-collection">
+      <div class="collection-tools"><label class="search-control" for="preview-search"><span data-copy="searchLabel">Find a dog</span><input id="preview-search" type="search" autocomplete="off" placeholder="Search name or ID" aria-controls="image-grid"></label><p id="results-count" role="status" aria-live="polite">Loading images…</p></div>
+      <p class="preview-message" id="preview-message" role="status" data-copy="loading">Loading images…</p>
+      <div class="image-grid" id="image-grid" tabindex="-1"></div>
+    </section>
+  </main>
+  <footer class="preview-footer"><p data-copy="disclosure">AI-generated illustrations of adult dogs and puppies. Appearance varies between individual dogs, especially mixed and designer types; a puppy’s adult appearance cannot be guaranteed.</p></footer>
+  <dialog id="image-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-caption">
+    <div class="dialog-heading"><div><h2 id="dialog-title"></h2><p id="dialog-id"></p></div><button class="dialog-close" type="button" id="dialog-close" aria-label="Close image"><span aria-hidden="true">×</span></button></div>
+    <img id="dialog-image" alt="" width="1024" height="1024">
+    <p id="dialog-caption"></p>
+  </dialog>
+</body>
+</html>
